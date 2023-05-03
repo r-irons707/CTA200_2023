@@ -1,0 +1,223 @@
+    1  ..
+    2  ls
+    3  ssh student18@gw.cita.utoronto.ca
+    4  /cita/local/bin/passwd
+    5  ssh -g -L5906:lobster:5906 student18@gw.cita.utoronto.ca
+    6  ssh -g -L5906:lobster:5906 student18@gw.cita.utoronto.ca
+    7  cd /fs/lustre/scratch/student18
+    8  ll
+    9  touch test.dat
+   10  ll
+   11  rm test.dat 
+   12  cd /mnt/scratch-lustre/student18/
+   13  ll
+   14  pwd
+   15  touch test.dat
+   16  rm test.dat 
+   17  pwd
+   18  git clone https://github.com/beniz/eigenmvn.git
+   19  ll
+   20  cd /mnt/scratch-lustre/student18
+   21  ll
+   22  w
+   23  exit
+   24  ls
+   25  cd gauss2d
+   26  ls
+   27  cd gauss2d/
+   28  ls
+   29  ./gauss2d | ./plot.py
+   30  module load python
+   31  ./gauss2d | ./plot.py
+   32  ls
+   33  pwd
+   34  ..
+   35  /..
+   36  cd ..
+   37  pwd
+   38  ls
+   39  ./gauss2d | ./plot.py
+   40  cd ..
+   41  ls
+   42  ./gauss2d | ./plot.py
+   43  pwd
+   44  cd gauss2d/
+   45  ls
+   46  ./gauss2d | ./plot.py
+   47  ./gauss2d | python plot.py
+   48  cat data.txt
+   49  pwd
+   50  cd ..
+   51  cd
+   52  pwd
+   53  cd /mnt/scratch-lustre/$student18/
+   54  ld
+   55  ls
+   56  git clone https://github.com/beniz/eigenmvn
+   57  pwd
+   58  git clone https://github.com/beniz/eigenmvn
+   59  pwd
+   60  ls
+   61  pwd
+   62  cd /student18
+   63  cd
+   64  pwd
+   65  cd /mnt/scratch-lustre/student18
+   66  pwd
+   67  ls
+   68  exit
+   69  ls
+   70  mkdir aaa
+   71  ls lh
+   72  ls -lh
+   73  cd /fs/lustre/scratch/student18/
+   74  ls
+   75  ls -la
+   76  cd 
+   77  ls -la
+   78  ls
+   79  pwd
+   80  mkdir gauss2d
+   81  ls
+   82  cd home/cta200/
+   83  pwd
+   84  cd /home/cta200
+   85  ls
+   86  find -name '*auss*'
+   87  cp -av /home/cta200/Research/gauss2d /home/guass2d
+   88  cp -av /home/cta200/Research/gauss2d /home/gauss2d
+   89  cd
+   90  ls
+   91  pwd
+   92  ls
+   93  cp -av /home/cta200/Research/gauss2d /home/student18/gauss2d
+   94  ls
+   95  cd gauss2d/
+   96  ls
+   97  cd gauss2d/
+   98  ls
+   99  g++ gauss2d.cc
+  100  ls
+  101  ./a.out > data.txt
+  102  ls
+  103  module load python/2.7.12
+  104  module load python
+  105  cd /mnt/scratch-lustre/$student18/
+  106  pwd
+  107  git clone https://github.com/beniz/eigenmvn
+  108  git clone https://github.com/beniz/eigenmvn.git
+  109  git clone git@github.com:beniz/eigenmvn.git
+  110  exit
+  111  cd /home4
+  112  ls
+  113  cd
+  114  pwd
+  115  echo 
+  116  echo 4user
+  117  echo $user4
+  118  echo $USER
+  119  ls
+  120  ssh lobstr
+  121  echo $HOSTNAME
+  122  ssh lobster
+  123  ssh lobster
+  124  ls
+  125  find . -name '*auss*'
+  126  cd
+  127  cd /home/cta200
+  128  find . -name '*auss*'
+  129  ls
+  130  mkdir guass2d
+  131  ls
+  132  cd /home
+  133  ls
+  134  mkdir guass2d
+  135  cd
+  136  ls
+  137  mkdir gauss2d
+  138  cd
+  139  pwd
+  140  ls
+  141  exit
+  142  pwd
+  143  cd /mnt/scratch-lustre/student18
+  144  pwd
+  145  mkdir CTA200_2023
+  146  ls
+  147  cd CTA200_2023/
+  148  ls
+  149  mkdir assignment_1
+  150  ls
+  151  pwd
+  152  nul > README.md
+  153  touch README.md
+  154  ls
+  155  cd assignment_1/
+  156  ls
+  157  touch README.md
+  158  ls
+  159  vi README.md
+  160  ls
+  161  vi README.md
+  162  cd /home/murray
+  163  pwd
+  164  ls
+  165  cp /home/murray/Hello_world.c /mnt/scratch-lustre/student18/CTA200_2023/assignment_1/
+  166  cp /home/murray/Hello_world.py /mnt/scratch-lustre/student18/CTA200_2023/assignment_1/
+  167  pwd
+  168  cd /mnt/scratch-lustre/student18
+  169  pwd
+  170  cd CTA200_2023/assignment_1/
+  171  pwd
+  172  ls
+  173  ren Hello_world.c Hello_world_Irons.c
+  174  rename Hello_world.c Hello_world_Irons.c
+  175  mv Hello_word.c Hello_world_Irons.c
+  176  mv Hello_word Hello_world_Irons.c
+  177  ls
+  178  mv -help
+  179  'mv -help'
+  180  'mv --help'
+  181  mv --help
+  182  mv Hello_word.c Hello_world_Irons.c
+  183  ls
+  184  mv Hello_world.c Hello_world_Irons.c
+  185  ls
+  186  mv Hello_world.py Hello_world_Irons.py
+  187  ls
+  188  module load gcc/5.4.0
+  189  module --help
+  190  g++ Hello_world_Irons.c
+  191  ls
+  192  mv a.out Hello_world.c
+  193  ls
+  194  g++ Hello_world.py
+  195  python Hello_world.py
+  196  ls
+  197  python Hello_world_Irons.py
+  198  ls
+  199  C Hello_world.c
+  200  c Hello_world.c
+  201  Hello_world.c
+  202  ls
+  203  Hello_world
+  204  ./Hello_world.c
+  205  vi Hello_world.c
+  206  vi Hello_world_Irons.c
+  207  ./Hello_world.c
+  208  g++ Hello_world_ir
+  209  g++ Hello_world_Irons.c
+  210  ls
+  211  rm Hello_world.c
+  212  ls
+  213  mv a.out Hello_world.c
+  214  ls
+  215  ./Hello_world.c
+  216  vi Hello_world_Irons.py
+  217  python Hello_world_Irons.py
+  218  python Hello_world_Irons.py > output_python.txt
+  219  ls
+  220  ./Hello_world.c > output_c.txt
+  221  ls
+  222  history
+  223  history > history.txt
